@@ -1,0 +1,13 @@
+@import 'config';
+
+.background {
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  right: -30px;
+  bottom: -30px;
+  background: url('https://images.unsplash.com/photo-1556745757-8d76bdb6984b')
+    no-repeat center center/cover;
+  filter: blur(20px);
+  z-index: -1;
+}
