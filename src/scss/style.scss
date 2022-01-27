@@ -1,4 +1,4 @@
-@import 'config';
+@use 'base';
 
 .background {
   position: absolute;
@@ -6,7 +6,7 @@
   left: -30px;
   right: -30px;
   bottom: -30px;
-  background: url('https://images.unsplash.com/photo-1556745757-8d76bdb6984b')
+  background: url('https://images.unsplash.com/photo-1572274407649-6cb883740677?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80')
     no-repeat center center/cover;
   filter: blur(20px);
   z-index: -1;
